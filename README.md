@@ -36,47 +36,47 @@ The dataset, product_sale.csv, is the primary data source. The dataset contained
 ## Data Visualizations
 
 ### All Sales Method - Number of Site Visits
-[!all1](./images/site_visits.png)
+![all1](./images/site_visits.png)
 Can see that in the top 5 number for the site visits all of email is fairly high. The sales method Call is also very consistent throughtout the top 5 visits. With the Email + Call method it tends to vary; however, you see that the highest number 27. 
 
 ### All Sales Method - New Products Sold
-[!all2](./images/site_visits.png)
+![all2](./images/site_visits.png)
 From this countplot can see that most top 2 amount of products sold are made by the sales method Email. Can also see see that the highest product sold is done with the method Email + Call. 
 
 ### Distributions 
 
 <b>All Sales Methods</b>
-[!dist1](./images/all_distribution.png)
+![dist1](./images/all_distribution.png)
 
 The distibution for revenue with no filtering is quite interesting, can see that there are some peaks and dips throughout the dataset. There is a bulk of the values between 30 to 70ish, then it dips and picks back up from 80 to 150, and then dips again. As well as another bulk of the values between 170 to 200, and finally a bulk below to 250. Also there is an obvious separation between the sales method with the Email + Call method earning more revenue per customer compared to the others. 
 
 <b>Email</b>
-[!dist2](./images/email_dist.png)
+![dist2](./images/email_dist.png)
 The distribution of revenue for the sales method Email shows that a bulk of those of values are in the early 90s. As show before with the .describe() method most of the values are above the original dataset, product_sales's median. The range is from 80 to a little under 150. The sales method - Email make up the part of from the distrbution of product_sales, it also has 7,465 entries making up 49.77% of the data.
 
 <b>Call</b>
-[!dist3](./images/call_dist.png)
+![dist3](./images/call_dist.png)
 The distribution of revenue for the sales method Call shows that a bulk of the of values are in the range of early 30s to just under 60. There is also some values in the range 60s to but over 70 with no values until a little under 90. As show before with the .describe() method most of the values are under the original dataset, product_sales' median. The range is from early 30s to a little under 90. The sales method - Call make up the part of from the distrbution of product_sales, it also has 4,961 values making up 33.08% of the data.
 
 <b>Email + Call</b>
-[!dist4](./images/emailCall_dist.png)
+![dist4](./images/emailCall_dist.png)
 The distribution of revenue for the sales method Email + Call shows that most of the values are above 100. As shown before with the .describe() method all of the values are above the original dataset, product_sales's median. The range is from the a little under 100 to 240. The sales method makes up the last part of the distribution of product_sales. It has 2,572 instances, making up 17.17% of the dataset. 
 
 ### Email + Call - Week
-[!graph1](./images/week_ec.png)
+![graph1](./images/week_ec.png)
 With this violinplot can see that the bulk of the values are towards the higher range of the revenue compared to the other sales method that were in smaller part of the range. Can see that the range differs greatly from the week since the product with launch with week 1 having a range from under a 100 to little under 150, while week 6 has a range of 90 to greater than 250.
 
 ### Email + Call - Years as Customer
-[!graph2](./images/years_ec.png)
+![graph2](./images/years_ec.png)
 From this boxplot can see that the range for customers that have been buying products from the company for one and four years have a larger range from under 100 to under 240, compared to the other top 5 years. Most of the values, for all of the top years have most of the values from 150 to 190. The median is quite similar for these years as well - around 180. 
 
 ### Email + Call - Number of New Products Sold
-[!graph3](./images/productsSold_ec.png)
+![graph3](./images/productsSold_ec.png)
 From this box plot can see that the more products sold, the more revenue earned per customer which again follows the pattern of the other sales method and makes sense - the more bought, the more earned. All of the values for product sold have a relatively small range and there is not much of an overlap between the values, unlike in the Call method.
 
 
 ### Email + Call - Number of Times the Site was Visited
-[!graph4](./images/visits_ec.png)
+![graph4](./images/visits_ec.png)
 The customer who visits the site 25 times in 6 months has a larger range of revenue from under 100 to just a little under 240, the other top 5 have a much smaller range at around 120 to under 240. They do have some outliers, which most likely are from the imputation of the median. The median for all of the values in the top 5, have median that are very similar howevr with a around 180. Most of the revenue earned for 29 is 180 to 240, which happens to be the highest value in the top 5. 
 
 ## Conclusion
